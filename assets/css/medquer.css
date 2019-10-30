@@ -1,0 +1,56 @@
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+  
+    .button-right {
+      float: right;
+    }
+
+      
+  }
+
+
+@media screen and (max-width: 768px) {
+ 
+    .button-right {
+        float: right;
+    }
+
+    .portfolio-img{    
+        float: left;
+        display: inline;
+        margin-left: 0;
+        width: 100%;
+        }
+
+    }
+  
+@media screen and (max-width: 640px) {
+  
+    .button-right {
+        float: left;
+    }
+
+    .portfolio-img{
+        
+            float: left;
+            display: inline;
+            margin-left: 0;
+            width: 100%;
+        }
+    
+    input{
+            float: left;
+            display: inline;
+            margin-left: 0;
+            width: 100%;
+        }
+    
+    p{
+        float: left;
+        display: inline;
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    }
