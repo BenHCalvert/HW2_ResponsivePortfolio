@@ -144,6 +144,10 @@
       }
 
       @media (max-width: 980px) {
+        input{
+            width: 85% !important;
+        }
+
         .button-right {
             float: right;
         }
@@ -167,18 +171,26 @@
         .heading-name {
         margin-left: 100px;
         }
+
+        .form-body{
+            width: 90%;
+        }       
       }
       
       @media (max-width: 768px) {
+        p{
+            font-size:x-small;
+        }
+
         .button-right {
             float: right;
         }
     
         .portfolio-img{    
-            float: left;
-            /* display: inline; */
-            margin-left: 0;
-            width: 100%;
+            float: left !important;
+            display: inline;
+            margin-left: 0 !important;
+            width: 100% !important;
         }
 
         .heading-context-position,
@@ -194,7 +206,7 @@
       
         .heading-name {
         margin-left: 2%;
-        }
+        }        
       }
       
       @media (max-width: 640px) {
@@ -203,26 +215,32 @@
             float: left;
         }
     
-        .portfolio-img{
-            
-                float: left;
-                /* display: inline; */
-                margin-left: 0;
-                width: 100%;
-            }
+        .portfolio-img{            
+        float: left;
+        display: inline;
+        margin-left: 0;
+        width: 100%;
+        } 
+        
+        invisible{
+            visibility: hidden !important;
+        }  
+   
         
         input{
-                float: left;
-                /* display: inline; */
-                margin-left: 0;
-                width: 100%;
-            }
+            float: left;
+            /* display: inline; */
+            margin-left: 0;
+            width: 100%;
+        }
         
         p{
             float: left;
             /* display: inline; */
             margin-left: 0;
-            width: 100%;
+            width: 90%;
+            font-size:x-small;
+            line-height: 1em;
         }
 
         .container {
@@ -259,19 +277,11 @@
         height: 100%;
         padding-top: 2px;
         margin: 0;
+        }  
+        
+        .invisible{
+            visibility: hidden !important;
         }
-      
-        .caption {
-        position: absolute;
-        top: 60%;
-        width: 100%;
-        padding: 15px 0;
-        font-size: 20px;
-        background-color: #4aaaa5;
-        z-index: 1;
-        text-align: center;
-        color: #fff;
-      }
       }
 
 
